@@ -1,10 +1,12 @@
 #include "include/App.hpp"
 
 /*
- *	Constructor
+ *	Constructor.
+ *	Change '*' for your WiFi id and your WiFi password.
+ *	For example: _wifi("Vodafone-WIFI", "Vodafone123"); \
  */
 App::App(void)
-	: _wifi("ghostintheshell", "gh0st1nth3sh3ll"), \
+	: _wifi("**********", "**********"), \
 	_cam(), \
 	_sd(), \
 	_web(_cam, _sd)
