@@ -28,7 +28,7 @@ Developed as a personal embedded systems project.
 - Arduino-style networking (`WiFi`)
 
 ## Project Structure
-'''
+```text
 .
 ├── camera_service/
 |      ├── include/
@@ -54,8 +54,7 @@ Developed as a personal embedded systems project.
 |      |          └── WifiService.cpp # WiFi connection management
 |      └── camera_service.ino
 └── README.md
-
-'''
+```
 
 Each service is designed to be independent and reusable.
 
